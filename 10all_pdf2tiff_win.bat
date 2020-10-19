@@ -2,7 +2,7 @@ echo off
 
 set gs="C:\Program Files\gs\gs9.27\bin\"
 echo %gs%
-set folderIN=e:\OutputTransformPDF2AFP_CPSI\win\output\output_PDF\TestFiles\
+set folderIN=e:\OutputTransformIMG2AFP\win\output\output_PDF\TestFiles\
 echo %folderIN%
 
 for /R %folderIN% %%i in (*.pdf) do (
