@@ -6,7 +6,7 @@ echo %submition_tool%
 
 set all_folders=e:\OutputTransformIMG2AFP\win\output\
 echo =============    Transform files from dir and subdir of : %all_folders% ======================================
-set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\demo_itm_ipaddress_IMG2AFP_win%
+set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_IMG2AFP_win%
 echo %itm_ipaddress%
 for /R %all_folders% %%i in (*.afp ) do (
 echo processing.......... %%i
@@ -19,8 +19,8 @@ echo ===============  Working Transform script is:.......... %cd% ==============
 
 echo ===============   Transform all AFP resulted from all Transforms to PDF =======================
 
-echo %submition_tool%\demo_itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -itm_out_files e:\%%~pi\%%~ni.pdf" -s8040
-%submition_tool%\demo_itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -itm_out_files  e:\%%~pi\%%~ni.pdf" -s8040 
+echo %submition_tool%\itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -itm_out_files e:\%%~pi\%%~ni.pdf" -s8040
+%submition_tool%\itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -itm_out_files  e:\%%~pi\%%~ni.pdf" -s8040 
  
  
  ) >> C:\Users\Administrator\Transforms\TestAll_IMG2AFP\Log\win\all_afp2pdf_itm-driver.log 2>&1
