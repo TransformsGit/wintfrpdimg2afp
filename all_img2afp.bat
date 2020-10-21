@@ -7,7 +7,7 @@ set folderIMAGES=e:\TestFiles\IMAGES\
 
 echo =============    Transform files from dir and subdir of : %folderIMAGES% ======================================
 
-set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_IMG_win%
+set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_IMG2AFP_win%
 echo Transform Server IP_Addres is *******: %itm_ipaddress%
 
 
