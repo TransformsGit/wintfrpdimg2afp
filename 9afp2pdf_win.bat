@@ -27,8 +27,8 @@ echo %submition_tool%\itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_f
  
 echo ================================================
 
-echo Copy.... e:\OutputTransformIMG2AFP\win\output\out_AFP\TestFiles\PDF\*.pdf e:\OutputTransformIMG2AFP\win\output\out_PDF\TestFiles\PDF\  
-xcopy /y /s /d  e:\OutputTransformIMG2AFP\win\output\out_AFP\TestFiles\PDF\*.pdf e:\OutputTransformIMG2AFP\win\output\out_PDF\TestFiles\PDF\ >> C:\Users\Administrator\Transforms\TestAll_IMG2AFP\Log\win\all_afp2pdf_itm-driveraaa.log 2>&1
+echo Copy.... e:\OutputTransformIMG2AFP\win\output\out_AFP\TestFiles\IMAGES\*.pdf e:\OutputTransformIMG2AFP\win\output\out_PDF\TestFiles\PDF\  
+xcopy /y /s /d  e:\OutputTransformIMG2AFP\win\output\out_AFP\TestFiles\IMAGES\*.pdf e:\OutputTransformIMG2AFP\win\output\out_PDF\TestFiles\PDF\ >> C:\Users\Administrator\Transforms\TestAll_IMG2AFP\Log\win\all_afp2pdf_itm-driveraaa.log 2>&1
 
 echo EXIT
 echo EXIT
